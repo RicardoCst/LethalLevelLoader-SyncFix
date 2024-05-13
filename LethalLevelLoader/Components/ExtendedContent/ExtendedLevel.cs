@@ -192,7 +192,6 @@ namespace LethalLevelLoader
             if (RouteConfirmNode != null)
                 RouteConfirmNode.buyRerouteToMoon = SelectableLevel.levelID;
         }
-        }
 
         internal void SetExtendedDungeonFlowMatches()
         {
