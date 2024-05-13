@@ -196,7 +196,7 @@ namespace LethalLevelLoader
                 //Initialize ExtendedContent Objects For Custom Content.
                 AssetBundleLoader.InitializeBundles();
 
-                foreach (ExtendedLevel extendedLevel in PatchedContent.CustomExtendedLevels)
+                foreach (ExtendedLevel extendedLevel in PatchedContent.ExtendedLevels)
                     extendedLevel.SetLevelID();
 
                 //Some Debugging.
@@ -340,7 +340,7 @@ namespace LethalLevelLoader
         [HarmonyPostfix]
         internal static void StartOfRoundSetPlanetsWeather_Postfix()
         {
-            if (LethalLevelLoaderNetworkManager.networkManager.IsServer)
+            if (!LethalLevelLoaderNetworkManager.networkManager.IsServer && !LethalLevelLoaderNetworkManager.networkManager.IsHost)
                 LethalLevelLoaderNetworkManager.Instance.GetUpdatedLevelCurrentWeatherServerRpc();
         }
 
