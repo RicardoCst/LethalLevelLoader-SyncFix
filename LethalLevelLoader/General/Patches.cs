@@ -340,7 +340,7 @@ namespace LethalLevelLoader
         [HarmonyPostfix]
         internal static void StartOfRoundSetPlanetsWeather_Postfix()
         {
-            if (!LethalLevelLoaderNetworkManager.networkManager.IsServer && !LethalLevelLoaderNetworkManager.networkManager.IsHost)
+            if (LethalLevelLoaderNetworkManager.networkManager.IsServer)
                 LethalLevelLoaderNetworkManager.Instance.GetUpdatedLevelCurrentWeatherServerRpc();
         }
 
