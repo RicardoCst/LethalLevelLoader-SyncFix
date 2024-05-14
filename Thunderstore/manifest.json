@@ -1,0 +1,12 @@
+{
+    "name": "lethallevelloader_syncfix",
+    "version_number": "1.2.7",
+    "website_url": "https://github.com/RicardoCst/LethalLevelLoader-SyncFix",
+    "description": "LethalLevelLoader but the desyncs (maybe) and terminal have been fixed ",
+    "dependencies": [
+        "Evaisa-LethalLib-0.15.1",
+        "Evaisa-FixPluginTypesSerialization-1.1.1",
+        "MaxWasUnavailable-LethalModDataLib-1.2.2",
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
