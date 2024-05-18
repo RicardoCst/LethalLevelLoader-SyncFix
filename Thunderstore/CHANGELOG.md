@@ -1,50 +1,6 @@
 **Changelog**
 --
 
-**<details><summary>Version 1.2.7</summary>**
-
-**<details><summary>Fixes</summary>**
-
-* Fixing the plugins folder (for real now...)
-
-</details>
-
-</details>
-
-**<details><summary>Version 1.2.6</summary>**
-
-**<details><summary>Fixes</summary>**
-
-* Actually making a LethalLevelLoader folder in plugins (im a noob with C# and coding)
-
-</details>
-
-</details>
-
-**<details><summary>Version 1.2.4/1.2.5</summary>**
-
-**<details><summary>Fixes</summary>**
-
-* Attempt at fixing the wrong github link :(
-* Fixing changelog
-
-</details>
-
-</details>
-
-**<details><summary>Version 1.2.3</summary>**
-
-**<details><summary>Fixes</summary>**
-
-* Implement possible fix by WhiteSpike for desyncs:
-* https://github.com/IAmBatby/LethalLevelLoader/pull/96
-* Implement fix by WhiteSpike for terminal issues
-* https://github.com/IAmBatby/LethalLevelLoader/pull/94
-
-</details>
-
-</details>
-
 **<details><summary>Version 1.2.2</summary>**
 
 **<details><summary>Fixes</summary>**

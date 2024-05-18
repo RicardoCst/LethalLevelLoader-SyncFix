@@ -113,7 +113,7 @@ namespace LethalLevelLoader
             if (Plugin.IsSetupComplete == false)
             {
                 LethalLevelLoaderNetworkManager.networkManager = __instance.GetComponent<NetworkManager>();
-                foreach (NetworkPrefab networkPrefab in __instance.GetComponent<NetworkManager>().NetworkConfig.Prefabs.m_Prefabs)
+                foreach (NetworkPrefab networkPrefab in __instance.GetComponent<NetworkManager>().NetworkConfig.Prefabs.Prefabs)
                     if (networkPrefab.Prefab.name.Contains("EntranceTeleport"))
                         if (networkPrefab.Prefab.GetComponent<AudioSource>() != null)
                             OriginalContent.AudioMixers.Add(networkPrefab.Prefab.GetComponent<AudioSource>().outputAudioMixerGroup.audioMixer);
@@ -196,7 +196,7 @@ namespace LethalLevelLoader
                 //Initialize ExtendedContent Objects For Custom Content.
                 AssetBundleLoader.InitializeBundles();
 
-                foreach (ExtendedLevel extendedLevel in PatchedContent.ExtendedLevels)
+                foreach (ExtendedLevel extendedLevel in PatchedContent.CustomExtendedLevels)
                     extendedLevel.SetLevelID();
 
                 //Some Debugging.

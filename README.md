@@ -1,9 +1,5 @@
 **LethalLevelLoader**
 --
-THIS IS A TEMPORARY FORK TO FIX THE SYNC / TERMINAL ISSUES
-
-CREDITS GO TO https://github.com/WhiteSpike
---
 
 **A Custom API to support the manual and dynamic integration of all forms of custom content in Lethal Company.**
 

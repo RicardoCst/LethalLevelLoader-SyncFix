@@ -1,6 +1,5 @@
 **LethalLevelLoader**
 --
-**TEMPORARY VERSION ONLY -- THIS BUILD IMPLEMENTS FIXES BY WHITESPIKE NO LONG TERM COMMITMENT**
 
 **A Custom API to support the manual and dynamic integration of all forms of custom content in Lethal Company.**
 

@@ -1,8 +1,8 @@
 {
-    "name": "lethallevelloader_syncfix",
-    "version_number": "1.2.7",
-    "website_url": "https://github.com/RicardoCst/LethalLevelLoader-SyncFix",
-    "description": "LethalLevelLoader but the desyncs (maybe) and terminal have been fixed ",
+    "name": "LethalLevelLoader",
+    "version_number": "1.2.2",
+    "website_url": "https://github.com/IAmBatby/LethalLevelLoader",
+    "description": "A Custom API to support the manual and dynamic integration of all forms of custom content in Lethal Company. (v50 Compatible)",
     "dependencies": [
         "Evaisa-LethalLib-0.15.1",
         "Evaisa-FixPluginTypesSerialization-1.1.1",
